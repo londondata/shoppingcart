@@ -41,6 +41,7 @@ var addToCart = function() {
 	// var cart = document.querySelectorAll("aside");
 	console.log(this.id)
 	document.querySelector("aside").appendChild(this);
+	// this.button.style.visibility = "hidden";
 
 }
 for (var i = 0; i < item.length; i++) {

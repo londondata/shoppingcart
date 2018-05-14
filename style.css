@@ -1,12 +1,17 @@
 * {
 /*	border: 1px solid red;*/
 	box-sizing: border-box;
+	font-family: "Josefin Slab", comic-sans;
 }
 
 header {
-	background-color: black;
+/*	background-color: black;*/
 	color: white;
 	text-align: center;
+	background-image: url("images/Goth-banner.jpg");
+	background-repeat: no-repeat;
+/*    background-position: center;*/
+    background-attachment: fixed;
 }
 
 header > nav {
@@ -39,15 +44,16 @@ section {
 	visibility: hidden;
 }
 
-aside {
+aside > h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	background-color: white;
+/*	flex-wrap: wrap;*/
 }
-.clearfix::after {
+/*.clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
+}*/
 
