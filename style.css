@@ -5,7 +5,6 @@
 
 header {
 	background-color: black;
-	font: "Josefin sans", comic sans;
 }
 
 header > h1 {
@@ -30,23 +29,27 @@ main {
 section {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .item > img {
 	/*margin: 10px;*/
 	padding: 10px;
-	border: 5 px solid white;
+	border: 5px solid white;
 	max-width: 85px;
 	max-height: 85px;
+}
+
+.skulls, .nin, .accessories {
+	visibility: hidden;
 }
 
 aside {
 /*	display: flex;
 	flex-direction: row-reverse;
 	justify-content: right;*/
-	float: right;
+/*	float: right;*/
 	background-color: white;
 }
 .clearfix::after {
