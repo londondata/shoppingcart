@@ -23,18 +23,17 @@ header > nav {
 main {
 	background-color: black;
 	color: white;
+	font-size: .65em;
 }
 
-section {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
+div {
+	
 }
+
 
 .item > img {
-	/*margin: 10px;*/
-	padding: 10px;
+	padding: 5px;
+	margin: 8px;
 	border: 5px solid white;
 	max-width: 85px;
 	max-height: 85px;
@@ -42,14 +41,20 @@ section {
 
 .skulls, .nin, .accessories {
 	visibility: hidden;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
 }
 
-aside > h2 {
+aside {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	background-color: white;
-/*	flex-wrap: wrap;*/
 }
 /*.clearfix::after {
     content: "";
