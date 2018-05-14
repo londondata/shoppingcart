@@ -1,8 +1,5 @@
 * {
 	border: 1px solid red;
-}
-
-* {
 	box-sizing: border-box;
 }
 
@@ -30,14 +27,31 @@ main {
 	color: white;
 }
 
-.skulls {
-	margin: 10px;
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.item > img {
+	/*margin: 10px;*/
 	padding: 10px;
 	border: 5 px solid white;
-
+	max-width: 85px;
+	max-height: 85px;
 }
 
 aside {
+/*	display: flex;
+	flex-direction: row-reverse;
+	justify-content: right;*/
 	float: right;
-
+	background-color: white;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
